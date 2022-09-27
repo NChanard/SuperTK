@@ -1,12 +1,15 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# SuperTK
+# SuperTK <a href='https://nchanard.github.io/SuperTK/'><img src='man/figures/logo.png' align="right" /></a>
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/NChanard/SuperTK/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/NChanard/SuperTK/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-SuperTK is a set of packages.
+One package to rule them all, one package to find them, One package to
+bring them all, and in the .GlobalEnv attach them.
 
 ## Installation
 
