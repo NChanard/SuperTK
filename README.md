@@ -8,7 +8,7 @@
 [![R-CMD-check](https://github.com/NChanard/SuperTK/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/NChanard/SuperTK/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-One package to rule them all, one package to find them, One package to
+One package to rule them all, one package to find them, one package to
 bring them all, and in the .GlobalEnv attach them.
 
 ## Installation
