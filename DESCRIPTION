@@ -1,0 +1,26 @@
+Package: SuperTK
+Type: Package
+Title: One Package to Rule Them All
+Version: 0.1.0
+Author: Nicolas Chanard <nicolas.chanard@univ-tlse3.fr>
+Maintainer: Nicolas Chanard <nicolas.chanard@univ-tlse3.fr>
+Description: One package to rule them all, one package to find them, One package to bring them all, and in the .GlobalEnv attach them.
+License: MIT + file LICENSE
+Depends:
+    R (>= 4.1)
+Imports:
+    DevTK,
+    DataTK,
+    StatTK,
+    ColorTK
+Suggests:
+    Matrix,
+    S4Vectors
+Remotes:
+    NChanard/DevTK,
+    NChanard/DataTK,
+    NChanard/StatTK,
+    NChanard/ColorTK
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.1
