@@ -6,8 +6,6 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/NChanard/SuperTK/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/NChanard/SuperTK/actions/workflows/R-CMD-check.yaml)
-[![Codecov test
-coverage](https://codecov.io/gh/NChanard/SuperTK/branch/master/graph/badge.svg)](https://app.codecov.io/gh/NChanard/SuperTK?branch=master)
 <!-- badges: end -->
 
 One package to rule them all, one package to find them, one package to
