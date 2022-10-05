@@ -68,7 +68,8 @@ contents:
 - plasma
 - rocket
 - turbo
-- viridis- title: DataTK
+- viridis
+- title: DataTK
 - subtitle: Matrix
 contents:
 - MeltSpm
@@ -86,7 +87,8 @@ contents:
 - BindFillRows
 - subtitle: Other
 contents:
-- WrapFunction- title: DevTK
+- WrapFunction
+- title: DevTK
 - subtitle: Files
 contents:
 - CheckFilePath
@@ -101,7 +103,8 @@ contents:
 contents:
 - AddAttr
 - NotIn
-- Versioning- title: StatTK
+- Versioning
+- title: StatTK
 - subtitle: Scaling
 contents:
 - MeanScale
@@ -134,7 +137,7 @@ contents:
 - MedianSkewness
 - Plus
 
-articles:
+ articles:
  - title: Other
    navbar: ~
    contents:
