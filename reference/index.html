@@ -21,10 +21,22 @@
       <ul class="navbar-nav me-auto"><li class="active nav-item">
   <a class="nav-link" href="../reference/index.html">Reference</a>
 </li>
+<li class="nav-item dropdown">
+  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" id="dropdown-articles">Articles</a>
+  <div class="dropdown-menu" aria-labelledby="dropdown-articles">
+    <a class="dropdown-item" href="../articles/Standard.html">Standard</a>
+  </div>
+</li>
       </ul><form class="form-inline my-2 my-lg-0" role="search">
         <input type="search" class="form-control me-sm-2" aria-label="Toggle navigation" name="search-input" data-search-index="../search.json" id="search-input" placeholder="Search for" autocomplete="off"></form>
 
-      <ul class="navbar-nav"></ul></div>
+      <ul class="navbar-nav"><li class="nav-item">
+  <a class="external-link nav-link" href="https://github.com/NChanard/SuperTK/" aria-label="github">
+    <span class="fab fa fab fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul></div>
 
     
   </div>
@@ -35,8 +47,14 @@
     </div>
 
     <div class="section level2">
-      <h2 id="all-functions">All functions<a class="anchor" aria-label="anchor" href="#all-functions"></a></h2>
+      <h2 id="colortk">ColorTK<a class="anchor" aria-label="anchor" href="#colortk"></a></h2>
       
+      
+
+      
+    </div><div class="section level2">
+      
+      <h3 id="color-mutation">Color Mutation<a class="anchor" aria-label="anchor" href="#color-mutation"></a></h3>
       
 
       
@@ -47,60 +65,46 @@
 
       <dl><dt>
           
-          <code><a href="AddAttr.html">AddAttr</a></code> 
-        </dt>
-        <dd>Add list as attributes.</dd>
-      </dl><dl><dt>
-          
-          <code><a href="BindFillRows.html">BindFillRows</a></code> 
-        </dt>
-        <dd>Bind data frames after filling missing columns.</dd>
-      </dl><dl><dt>
-          
-          <code><a href="Blues.html">Blues</a></code> 
-        </dt>
-        <dd>Create a Blues palette</dd>
-      </dl><dl><dt>
-          
-          <code><a href="BoxBlur.html">BoxBlur</a></code> 
-        </dt>
-        <dd>Blur a matrix.</dd>
-      </dl><dl><dt>
-          
-          <code><a href="BrBG.html">BrBG</a></code> 
-        </dt>
-        <dd>Create a BrBG palette</dd>
-      </dl><dl><dt>
-          
-          <code><a href="BreakVector.html">BreakVector</a></code> 
-        </dt>
-        <dd>Cut a vector.</dd>
-      </dl><dl><dt>
-          
           <code><a href="Brighten.html">Brighten</a></code> 
         </dt>
         <dd>Fixe saturation at 100% and light at 50%.</dd>
       </dl><dl><dt>
           
-          <code><a href="BuGn.html">BuGn</a></code> 
+          <code><a href="Colorize.html">Colorize</a></code> 
         </dt>
-        <dd>Create a BuGn palette</dd>
+        <dd>Fixe saturation at 100%.</dd>
       </dl><dl><dt>
           
-          <code><a href="BuPu.html">BuPu</a></code> 
+          <code><a href="Darken.html">Darken</a></code> 
         </dt>
-        <dd>Create a BuPu palette</dd>
+        <dd>Fixe light at 25%.</dd>
       </dl><dl><dt>
           
-          <code><a href="CbrtNorm.html">CbrtNorm</a></code> 
+          <code><a href="MutateColorParameter.html">MutateColorParameter</a></code> 
         </dt>
-        <dd>Cubic root normalization.</dd>
+        <dd>Modify a color</dd>
       </dl><dl><dt>
           
-          <code><a href="CheckFilePath.html">CheckFilePath</a></code> 
+          <code><a href="Pastelize.html">Pastelize</a></code> 
         </dt>
-        <dd>Check if a file path is valid.</dd>
+        <dd>Fixe light at 75%.</dd>
       </dl><dl><dt>
+          
+          <code><a href="Tarnished.html">Tarnished</a></code> 
+        </dt>
+        <dd>Fixe saturation at 25%.</dd>
+      </dl></div><div class="section level2">
+      
+      <h3 id="format-convertion">Format Convertion<a class="anchor" aria-label="anchor" href="#format-convertion"></a></h3>
+      
+
+      
+    </div><div id="" class="section level2">
+      
+      
+      
+
+      <dl><dt>
           
           <code><a href="Col2Hex.html">Col2Hex</a></code> 
         </dt>
@@ -117,74 +121,14 @@
         <dd>Convert a color in to RGB format.</dd>
       </dl><dl><dt>
           
-          <code><a href="Colorize.html">Colorize</a></code> 
-        </dt>
-        <dd>Fixe saturation at 100%.</dd>
-      </dl><dl><dt>
-          
           <code><a href="ConvertColorFormat.html">ConvertColorFormat</a></code> 
         </dt>
         <dd>Convert a color format.</dd>
       </dl><dl><dt>
           
-          <code><a href="Darken.html">Darken</a></code> 
-        </dt>
-        <dd>Fixe light at 25%.</dd>
-      </dl><dl><dt>
-          
-          <code><a href="FindElbow.html">FindElbow</a></code> 
-        </dt>
-        <dd>Find the elbow point on a curve.</dd>
-      </dl><dl><dt>
-          
-          <code><a href="Gauss.html">Gauss</a></code> 
-        </dt>
-        <dd>Gaussian formula.</dd>
-      </dl><dl><dt>
-          
-          <code><a href="GaussBox.html">GaussBox</a></code> 
-        </dt>
-        <dd>One dimension Gaussian kernel.</dd>
-      </dl><dl><dt>
-          
-          <code><a href="GaussKernel.html">GaussKernel</a></code> 
-        </dt>
-        <dd>Two dimension Gaussian kernel.</dd>
-      </dl><dl><dt>
-          
           <code><a href="GetColorFormat.html">GetColorFormat</a></code> 
         </dt>
         <dd>Get format of a color</dd>
-      </dl><dl><dt>
-          
-          <code><a href="GetFileExtension.html">GetFileExtension</a></code> 
-        </dt>
-        <dd>Get file extension</dd>
-      </dl><dl><dt>
-          
-          <code><a href="GetFileName.html">GetFileName</a></code> 
-        </dt>
-        <dd>Get file name.</dd>
-      </dl><dl><dt>
-          
-          <code><a href="GetHelper.html">GetHelper</a></code> 
-        </dt>
-        <dd>Create pseudo documentation.</dd>
-      </dl><dl><dt>
-          
-          <code><a href="GnBu.html">GnBu</a></code> 
-        </dt>
-        <dd>Create a GnBu palette</dd>
-      </dl><dl><dt>
-          
-          <code><a href="Greens.html">Greens</a></code> 
-        </dt>
-        <dd>Create a Greens palette</dd>
-      </dl><dl><dt>
-          
-          <code><a href="Greys.html">Greys</a></code> 
-        </dt>
-        <dd>Create a Greys palette</dd>
       </dl><dl><dt>
           
           <code><a href="Hex2Hsl.html">Hex2Hsl</a></code> 
@@ -207,20 +151,26 @@
         <dd>Convert a color in HSL to RGB.</dd>
       </dl><dl><dt>
           
-          <code><a href="Hue.html">Hue</a></code> 
+          <code><a href="Rgb2Hex.html">Rgb2Hex</a></code> 
         </dt>
-        <dd>Create an Hue palette.</dd>
+        <dd>Convert a color in RGB to hexadecimal format.</dd>
       </dl><dl><dt>
           
-          <code><a href="InterpolateNA.html">InterpolateNA</a></code> 
+          <code><a href="Rgb2Hsl.html">Rgb2Hsl</a></code> 
         </dt>
-        <dd>Interpolate NA values in a vector.</dd>
-      </dl><dl><dt>
-          
-          <code><a href="IqrThreshold.html">IqrThreshold</a></code> 
-        </dt>
-        <dd>Find threshold for outliers triming based on inter quartile range.</dd>
-      </dl><dl><dt>
+        <dd>Convert a color in RGB to HSL format.</dd>
+      </dl></div><div class="section level2">
+      
+      <h3 id="format-check">Format Check<a class="anchor" aria-label="anchor" href="#format-check"></a></h3>
+      
+
+      
+    </div><div id="" class="section level2">
+      
+      
+      
+
+      <dl><dt>
           
           <code><a href="IsCol.html">IsCol</a></code> 
         </dt>
@@ -237,54 +187,65 @@
         <dd>Check if a color is in HSL color format.</dd>
       </dl><dl><dt>
           
-          <code><a href="IsPath.html">IsPath</a></code> 
-        </dt>
-        <dd>Check if a character string is a file path.</dd>
-      </dl><dl><dt>
-          
           <code><a href="IsRgb.html">IsRgb</a></code> 
         </dt>
         <dd>Check if a color is in RGB color format.</dd>
+      </dl></div><div class="section level2">
+      
+      <h3 id="palette">Palette<a class="anchor" aria-label="anchor" href="#palette"></a></h3>
+      
+
+      
+    </div><div id="" class="section level2">
+      
+      
+      
+
+      <dl><dt>
+          
+          <code><a href="ggPalette.html">ggPalette</a></code> 
+        </dt>
+        <dd>Plot a color palette.</dd>
       </dl><dl><dt>
           
-          <code><a href="Log2Norm.html">Log2Norm</a></code> 
+          <code><a href="Hue.html">Hue</a></code> 
         </dt>
-        <dd>Log2 normalization.</dd>
+        <dd>Create an Hue palette.</dd>
       </dl><dl><dt>
           
-          <code><a href="MeanScale.html">MeanScale</a></code> 
+          <code><a href="Blues.html">Blues</a></code> 
         </dt>
-        <dd>Scale values by mean.</dd>
+        <dd>Create a Blues palette</dd>
       </dl><dl><dt>
           
-          <code><a href="MedianSkewness.html">MedianSkewness</a></code> 
+          <code><a href="BrBG.html">BrBG</a></code> 
         </dt>
-        <dd>Pearson median skewness.</dd>
+        <dd>Create a BrBG palette</dd>
       </dl><dl><dt>
           
-          <code><a href="MeltSpm.html">MeltSpm</a></code> 
+          <code><a href="BuGn.html">BuGn</a></code> 
         </dt>
-        <dd>Coerce matrix in tibble.</dd>
+        <dd>Create a BuGn palette</dd>
       </dl><dl><dt>
           
-          <code><a href="MinMaxScale.html">MinMaxScale</a></code> 
+          <code><a href="BuPu.html">BuPu</a></code> 
         </dt>
-        <dd>Scales values on min-max range.</dd>
+        <dd>Create a BuPu palette</dd>
       </dl><dl><dt>
           
-          <code><a href="MutateColorParameter.html">MutateColorParameter</a></code> 
+          <code><a href="GnBu.html">GnBu</a></code> 
         </dt>
-        <dd>Modify a color</dd>
+        <dd>Create a GnBu palette</dd>
       </dl><dl><dt>
           
-          <code><a href="Normalize.html">Normalize</a></code> 
+          <code><a href="Greens.html">Greens</a></code> 
         </dt>
-        <dd>Normalize data.</dd>
+        <dd>Create a Greens palette</dd>
       </dl><dl><dt>
           
-          <code><a href="NotIn.html">NotIn</a></code> 
+          <code><a href="Greys.html">Greys</a></code> 
         </dt>
-        <dd>Binary operator, inverse to %in%.</dd>
+        <dd>Create a Greys palette</dd>
       </dl><dl><dt>
           
           <code><a href="OrRd.html">OrRd</a></code> 
@@ -297,24 +258,9 @@
         <dd>Create a Oranges palette</dd>
       </dl><dl><dt>
           
-          <code><a href="PadMtx.html">PadMtx</a></code> 
-        </dt>
-        <dd>Add a value around a matrix.</dd>
-      </dl><dl><dt>
-          
-          <code><a href="Pastelize.html">Pastelize</a></code> 
-        </dt>
-        <dd>Fixe light at 75%.</dd>
-      </dl><dl><dt>
-          
           <code><a href="PiYg.html">PiYg</a></code> 
         </dt>
         <dd>Create a PiYg palette</dd>
-      </dl><dl><dt>
-          
-          <code><a href="Plus.html">Plus</a></code> 
-        </dt>
-        <dd>Sum by removing NA.</dd>
       </dl><dl><dt>
           
           <code><a href="PrGn.html">PrGn</a></code> 
@@ -347,11 +293,6 @@
         <dd>Create a Purples palette</dd>
       </dl><dl><dt>
           
-          <code><a href="QtlThreshold.html">QtlThreshold</a></code> 
-        </dt>
-        <dd>Find threshold for outliers triming based on quantiles.</dd>
-      </dl><dl><dt>
-          
           <code><a href="RdBu.html">RdBu</a></code> 
         </dt>
         <dd>Create a RdBu palette</dd>
@@ -382,84 +323,9 @@
         <dd>Create a Reds palette</dd>
       </dl><dl><dt>
           
-          <code><a href="ReduceRun.html">ReduceRun</a></code> 
-        </dt>
-        <dd>Apply a function over two RLE</dd>
-      </dl><dl><dt>
-          
-          <code><a href="ResizeMatrix.html">ResizeMatrix</a></code> 
-        </dt>
-        <dd>Resize a matrix</dd>
-      </dl><dl><dt>
-          
-          <code><a href="Rgb2Hex.html">Rgb2Hex</a></code> 
-        </dt>
-        <dd>Convert a color in RGB to hexadecimal format.</dd>
-      </dl><dl><dt>
-          
-          <code><a href="Rgb2Hsl.html">Rgb2Hsl</a></code> 
-        </dt>
-        <dd>Convert a color in RGB to HSL format.</dd>
-      </dl><dl><dt>
-          
-          <code><a href="Rise0.html">Rise0</a></code> 
-        </dt>
-        <dd>Explicit zeros in sparse matrix.</dd>
-      </dl><dl><dt>
-          
-          <code><a href="RobustScalarScale.html">RobustScalarScale</a></code> 
-        </dt>
-        <dd>Robust scalar sclaing.</dd>
-      </dl><dl><dt>
-          
-          <code><a href="SdThreshold.html">SdThreshold</a></code> 
-        </dt>
-        <dd>Find threshold for outliers triming based on standard deviation.</dd>
-      </dl><dl><dt>
-          
-          <code><a href="ShowLoading.html">ShowLoading</a></code> 
-        </dt>
-        <dd>Show the loading of a looping operation.</dd>
-      </dl><dl><dt>
-          
           <code><a href="Spectral.html">Spectral</a></code> 
         </dt>
         <dd>Create a Spectral palette</dd>
-      </dl><dl><dt>
-          
-          <code><a href="SqrtNorm.html">SqrtNorm</a></code> 
-        </dt>
-        <dd>Square root normalization.</dd>
-      </dl><dl><dt>
-          
-          <code><a href="Tarnished.html">Tarnished</a></code> 
-        </dt>
-        <dd>Fixe saturation at 25%.</dd>
-      </dl><dl><dt>
-          
-          <code><a href="TransposeList.html">TransposeList</a></code> 
-        </dt>
-        <dd>Turns a nested list "inside-out".</dd>
-      </dl><dl><dt>
-          
-          <code><a href="TrimOutliers.html">TrimOutliers</a></code> 
-        </dt>
-        <dd>Remove outliers.</dd>
-      </dl><dl><dt>
-          
-          <code><a href="UnitLengthScale.html">UnitLengthScale</a></code> 
-        </dt>
-        <dd>Unit length scaling.</dd>
-      </dl><dl><dt>
-          
-          <code><a href="Versioning.html">Versioning</a></code> 
-        </dt>
-        <dd>Create a version number.</dd>
-      </dl><dl><dt>
-          
-          <code><a href="WrapFunction.html">WrapFunction</a></code> 
-        </dt>
-        <dd>Wrap a string into a function.</dd>
       </dl><dl><dt>
           
           <code><a href="YlGn.html">YlGn</a></code> 
@@ -485,11 +351,6 @@
           <code><a href="cividis.html">cividis</a></code> 
         </dt>
         <dd>Create a cividis palette</dd>
-      </dl><dl><dt>
-          
-          <code><a href="ggPalette.html">ggPalette</a></code> 
-        </dt>
-        <dd>Plot a color palette.</dd>
       </dl><dl><dt>
           
           <code><a href="inferno.html">inferno</a></code> 
@@ -525,8 +386,360 @@
           <code><a href="viridis.html">viridis</a></code> 
         </dt>
         <dd>Create a viridis palette</dd>
+      </dl></div><div class="section level2">
+      <h2 id="datatk">DataTK<a class="anchor" aria-label="anchor" href="#datatk"></a></h2>
+      
+      
+
+      
+    </div><div class="section level2">
+      
+      <h3 id="matrix">Matrix<a class="anchor" aria-label="anchor" href="#matrix"></a></h3>
+      
+
+      
+    </div><div id="" class="section level2">
+      
+      
+      
+
+      <dl><dt>
+          
+          <code><a href="MeltSpm.html">MeltSpm</a></code> 
+        </dt>
+        <dd>Coerce matrix in tibble.</dd>
+      </dl><dl><dt>
+          
+          <code><a href="PadMtx.html">PadMtx</a></code> 
+        </dt>
+        <dd>Add a value around a matrix.</dd>
+      </dl><dl><dt>
+          
+          <code><a href="ResizeMatrix.html">ResizeMatrix</a></code> 
+        </dt>
+        <dd>Resize a matrix</dd>
+      </dl><dl><dt>
+          
+          <code><a href="Rise0.html">Rise0</a></code> 
+        </dt>
+        <dd>Explicit zeros in sparse matrix.</dd>
+      </dl></div><div class="section level2">
+      
+      <h3 id="rle">Rle<a class="anchor" aria-label="anchor" href="#rle"></a></h3>
+      
+
+      
+    </div><div id="" class="section level2">
+      
+      
+      
+
+      <dl><dt>
+          
+          <code><a href="ReduceRun.html">ReduceRun</a></code> 
+        </dt>
+        <dd>Apply a function over two RLE</dd>
+      </dl></div><div class="section level2">
+      
+      <h3 id="list">List<a class="anchor" aria-label="anchor" href="#list"></a></h3>
+      
+
+      
+    </div><div id="" class="section level2">
+      
+      
+      
+
+      <dl><dt>
+          
+          <code><a href="TransposeList.html">TransposeList</a></code> 
+        </dt>
+        <dd>Turns a nested list "inside-out".</dd>
+      </dl></div><div class="section level2">
+      
+      <h3 id="data-frame">Data.frame<a class="anchor" aria-label="anchor" href="#data-frame"></a></h3>
+      
+
+      
+    </div><div id="" class="section level2">
+      
+      
+      
+
+      <dl><dt>
+          
+          <code><a href="BindFillRows.html">BindFillRows</a></code> 
+        </dt>
+        <dd>Bind data frames after filling missing columns.</dd>
+      </dl></div><div class="section level2">
+      
+      <h3 id="other">Other<a class="anchor" aria-label="anchor" href="#other"></a></h3>
+      
+
+      
+    </div><div id="" class="section level2">
+      
+      
+      
+
+      <dl><dt>
+          
+          <code><a href="WrapFunction.html">WrapFunction</a></code> 
+        </dt>
+        <dd>Wrap a string into a function.</dd>
+      </dl></div><div class="section level2">
+      <h2 id="devtk">DevTK<a class="anchor" aria-label="anchor" href="#devtk"></a></h2>
+      
+      
+
+      
+    </div><div class="section level2">
+      
+      <h3 id="files">Files<a class="anchor" aria-label="anchor" href="#files"></a></h3>
+      
+
+      
+    </div><div id="" class="section level2">
+      
+      
+      
+
+      <dl><dt>
+          
+          <code><a href="CheckFilePath.html">CheckFilePath</a></code> 
+        </dt>
+        <dd>Check if a file path is valid.</dd>
+      </dl><dl><dt>
+          
+          <code><a href="GetFileExtension.html">GetFileExtension</a></code> 
+        </dt>
+        <dd>Get file extension</dd>
+      </dl><dl><dt>
+          
+          <code><a href="GetFileName.html">GetFileName</a></code> 
+        </dt>
+        <dd>Get file name.</dd>
+      </dl><dl><dt>
+          
+          <code><a href="IsPath.html">IsPath</a></code> 
+        </dt>
+        <dd>Check if a character string is a file path.</dd>
+      </dl></div><div class="section level2">
+      
+      <h3 id="verbosity">Verbosity<a class="anchor" aria-label="anchor" href="#verbosity"></a></h3>
+      
+
+      
+    </div><div id="" class="section level2">
+      
+      
+      
+
+      <dl><dt>
+          
+          <code><a href="GetHelper.html">GetHelper</a></code> 
+        </dt>
+        <dd>Create pseudo documentation.</dd>
+      </dl><dl><dt>
+          
+          <code><a href="ShowLoading.html">ShowLoading</a></code> 
+        </dt>
+        <dd>Show the loading of a looping operation.</dd>
+      </dl></div><div class="section level2">
+      
+      <h3 id="other-1">Other<a class="anchor" aria-label="anchor" href="#other-1"></a></h3>
+      
+
+      
+    </div><div id="" class="section level2">
+      
+      
+      
+
+      <dl><dt>
+          
+          <code><a href="AddAttr.html">AddAttr</a></code> 
+        </dt>
+        <dd>Add list as attributes.</dd>
+      </dl><dl><dt>
+          
+          <code><a href="NotIn.html">NotIn</a></code> 
+        </dt>
+        <dd>Binary operator, inverse to %in%.</dd>
+      </dl><dl><dt>
+          
+          <code><a href="Versioning.html">Versioning</a></code> 
+        </dt>
+        <dd>Create a version number.</dd>
+      </dl></div><div class="section level2">
+      <h2 id="stattk">StatTK<a class="anchor" aria-label="anchor" href="#stattk"></a></h2>
+      
+      
+
+      
+    </div><div class="section level2">
+      
+      <h3 id="scaling">Scaling<a class="anchor" aria-label="anchor" href="#scaling"></a></h3>
+      
+
+      
+    </div><div id="" class="section level2">
+      
+      
+      
+
+      <dl><dt>
+          
+          <code><a href="MeanScale.html">MeanScale</a></code> 
+        </dt>
+        <dd>Scale values by mean.</dd>
+      </dl><dl><dt>
+          
+          <code><a href="MinMaxScale.html">MinMaxScale</a></code> 
+        </dt>
+        <dd>Scales values on min-max range.</dd>
+      </dl><dl><dt>
+          
+          <code><a href="RobustScalarScale.html">RobustScalarScale</a></code> 
+        </dt>
+        <dd>Robust scalar sclaing.</dd>
+      </dl><dl><dt>
+          
+          <code><a href="UnitLengthScale.html">UnitLengthScale</a></code> 
+        </dt>
+        <dd>Unit length scaling.</dd>
+      </dl></div><div class="section level2">
+      
+      <h3 id="normalization">Normalization<a class="anchor" aria-label="anchor" href="#normalization"></a></h3>
+      
+
+      
+    </div><div id="" class="section level2">
+      
+      
+      
+
+      <dl><dt>
+          
+          <code><a href="CbrtNorm.html">CbrtNorm</a></code> 
+        </dt>
+        <dd>Cubic root normalization.</dd>
+      </dl><dl><dt>
+          
+          <code><a href="Log2Norm.html">Log2Norm</a></code> 
+        </dt>
+        <dd>Log2 normalization.</dd>
+      </dl><dl><dt>
+          
+          <code><a href="Normalize.html">Normalize</a></code> 
+        </dt>
+        <dd>Normalize data.</dd>
+      </dl><dl><dt>
+          
+          <code><a href="SqrtNorm.html">SqrtNorm</a></code> 
+        </dt>
+        <dd>Square root normalization.</dd>
+      </dl></div><div class="section level2">
+      
+      <h3 id="outliers">Outliers<a class="anchor" aria-label="anchor" href="#outliers"></a></h3>
+      
+
+      
+    </div><div id="" class="section level2">
+      
+      
+      
+
+      <dl><dt>
+          
+          <code><a href="IqrThreshold.html">IqrThreshold</a></code> 
+        </dt>
+        <dd>Find threshold for outliers triming based on inter quartile range.</dd>
+      </dl><dl><dt>
+          
+          <code><a href="QtlThreshold.html">QtlThreshold</a></code> 
+        </dt>
+        <dd>Find threshold for outliers triming based on quantiles.</dd>
+      </dl><dl><dt>
+          
+          <code><a href="SdThreshold.html">SdThreshold</a></code> 
+        </dt>
+        <dd>Find threshold for outliers triming based on standard deviation.</dd>
+      </dl><dl><dt>
+          
+          <code><a href="TrimOutliers.html">TrimOutliers</a></code> 
+        </dt>
+        <dd>Remove outliers.</dd>
+      </dl></div><div class="section level2">
+      
+      <h3 id="gaussian">Gaussian<a class="anchor" aria-label="anchor" href="#gaussian"></a></h3>
+      
+
+      
+    </div><div id="" class="section level2">
+      
+      
+      
+
+      <dl><dt>
+          
+          <code><a href="Gauss.html">Gauss</a></code> 
+        </dt>
+        <dd>Gaussian formula.</dd>
+      </dl><dl><dt>
+          
+          <code><a href="GaussBox.html">GaussBox</a></code> 
+        </dt>
+        <dd>One dimension Gaussian kernel.</dd>
+      </dl><dl><dt>
+          
+          <code><a href="GaussKernel.html">GaussKernel</a></code> 
+        </dt>
+        <dd>Two dimension Gaussian kernel.</dd>
+      </dl></div><div class="section level2">
+      
+      <h3 id="other-2">Other<a class="anchor" aria-label="anchor" href="#other-2"></a></h3>
+      
+
+      
+    </div><div id="" class="section level2">
+      
+      
+      
+
+      <dl><dt>
+          
+          <code><a href="BoxBlur.html">BoxBlur</a></code> 
+        </dt>
+        <dd>Blur a matrix.</dd>
+      </dl><dl><dt>
+          
+          <code><a href="BreakVector.html">BreakVector</a></code> 
+        </dt>
+        <dd>Cut a vector.</dd>
+      </dl><dl><dt>
+          
+          <code><a href="FindElbow.html">FindElbow</a></code> 
+        </dt>
+        <dd>Find the elbow point on a curve.</dd>
+      </dl><dl><dt>
+          
+          <code><a href="InterpolateNA.html">InterpolateNA</a></code> 
+        </dt>
+        <dd>Interpolate NA values in a vector.</dd>
+      </dl><dl><dt>
+          
+          <code><a href="MedianSkewness.html">MedianSkewness</a></code> 
+        </dt>
+        <dd>Pearson median skewness.</dd>
+      </dl><dl><dt>
+          
+          <code><a href="Plus.html">Plus</a></code> 
+        </dt>
+        <dd>Sum by removing NA.</dd>
       </dl></div>
-  </main></div>
+  </main><aside class="col-md-3"><nav id="toc"><h2>On this page</h2>
+    </nav></aside></div>
 
 
     <footer><div class="pkgdown-footer-left">
