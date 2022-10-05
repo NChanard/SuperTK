@@ -7,6 +7,8 @@ Maintainer: Nicolas Chanard <nicolas.chanard@univ-tlse3.fr>
 Description: One package to rule them all, one package to find them, One
     package to bring them all, and in the .GlobalEnv attach them.
 License: MIT + file LICENSE
+URL: https://nchanard.github.io/SuperTK/,
+    https://github.com/NChanard/SuperTK
 Depends:
     R (>= 4.1)
 Imports:
@@ -15,8 +17,12 @@ Imports:
     DevTK,
     StatTK
 Suggests:
+    knitr,
     Matrix,
+    rmarkdown,
     S4Vectors
+VignetteBuilder: 
+    knitr
 Remotes:
     NChanard/ColorTK,
     NChanard/DataTK,

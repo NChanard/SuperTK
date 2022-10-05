@@ -1,2 +1,141 @@
 template:
   bootstrap: 5
+
+reference:
+- title: ColorTK
+- subtitle: Color Mutation
+contents:
+- Brighten
+- Colorize
+- Darken
+- MutateColorParameter
+- Pastelize
+- Tarnished
+- subtitle: Format Convertion
+contents:
+- Col2Hex
+- Col2Hsl
+- Col2Rgb
+- ConvertColorFormat
+- GetColorFormat
+- Hex2Hsl
+- Hex2Rgb
+- Hsl2Hex
+- Hsl2Rgb
+- Rgb2Hex
+- Rgb2Hsl
+- subtitle: Format Check
+contents:
+- IsCol
+- IsHex
+- IsHsl
+- IsRgb
+- subtitle: Palette
+contents:
+- ggPalette
+- Hue
+- Blues
+- BrBG
+- BuGn
+- BuPu
+- GnBu
+- Greens
+- Greys
+- OrRd
+- Oranges
+- PiYg
+- PrGn
+- PuBu
+- PuBuGn
+- PuOr
+- PuRd
+- Purples
+- RdBu
+- RdGy
+- RdPu
+- RdYlBu
+- RdYlGn
+- Reds
+- Spectral
+- YlGn
+- YlGnBu
+- YlOrBr
+- YlOrRd
+- cividis
+- inferno
+- magma
+- mako
+- plasma
+- rocket
+- turbo
+- viridis- title: DataTK
+- subtitle: Matrix
+contents:
+- MeltSpm
+- PadMtx
+- ResizeMatrix
+- Rise0
+- subtitle: Rle
+contents:
+- ReduceRun
+- subtitle: List
+contents:
+- TransposeList
+- subtitle: Data.frame
+contents:
+- BindFillRows
+- subtitle: Other
+contents:
+- WrapFunction- title: DevTK
+- subtitle: Files
+contents:
+- CheckFilePath
+- GetFileExtension
+- GetFileName
+- IsPath
+- subtitle: Verbosity
+contents:
+- GetHelper
+- ShowLoading
+- subtitle: Other
+contents:
+- AddAttr
+- NotIn
+- Versioning- title: StatTK
+- subtitle: Scaling
+contents:
+- MeanScale
+- MinMaxScale
+- RobustScalarScale
+- UnitLengthScale
+- subtitle: Normalization
+contents:
+- CbrtNorm
+- Log2Norm
+- Normalize
+- SqrtNorm
+- subtitle: Outliers
+contents:
+- IqrThreshold
+- QtlThreshold
+- SdThreshold
+- TrimOutliers
+- subtitle: Gaussian
+contents:
+- Gauss
+- GaussBox
+- GaussKernel
+- subtitle: Other
+contents:
+- BoxBlur
+- BreakVector
+- FindElbow
+- InterpolateNA
+- MedianSkewness
+- Plus
+
+articles:
+ - title: Other
+   navbar: ~
+   contents:
+   - Standard
