@@ -157,8 +157,8 @@ reference:
   - MedianSkewness
   - Plus
 
- articles:
- - title: Other
-   navbar: ~
-   contents:
-   - Standard
+articles:
+- title: Other
+  navbar: ~
+  contents:
+  - Standard
