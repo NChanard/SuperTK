@@ -6,3 +6,4 @@
 ^pkgdown$
 ^\.git
 ^_pkgdown.yml$
+^SuperMaintener.R$

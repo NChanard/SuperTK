@@ -23,3 +23,8 @@ devtools::install_github("NChanard/SuperTK")
 ## Documentation
 
 [SuperTK](https://nchanard.github.io/SuperTK/)
+
+## Maintaining
+
+Run the SuperMaintener.R script in a local session to ensure that all
+package changes are imported.
