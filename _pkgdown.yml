@@ -73,6 +73,7 @@ reference:
 	- rocket
 	- turbo
 	- viridis
+
 - title: DataTK
 
 - subtitle: Matrix
@@ -97,6 +98,7 @@ reference:
 - subtitle: Other
 	contents:
 	- WrapFunction
+
 - title: DevTK
 
 - subtitle: Files
@@ -116,6 +118,7 @@ reference:
 	- AddAttr
 	- NotIn
 	- Versioning
+
 - title: StatTK
 
 - subtitle: Scaling
