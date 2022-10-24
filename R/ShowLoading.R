@@ -4,8 +4,8 @@
 #' @description Show the loading of a looping operation.
 #' @name ShowLoading
 #' @param start.tim <POSIXct POSIXt>: A time obtain with 'Sys.time()'.
-#' @param operation.ndx <integer>: The index number of the operation.
-#' @param operation.int <integer>: The total number of operation.
+#' @param operation.ndx <numerical>: The index number of the operation.
+#' @param operation.num <numerical>: The total number of operation.
 #' @examples
 #' start.tim <- Sys.time()
 #' for(i in seq_len(10000)){

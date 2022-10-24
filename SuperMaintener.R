@@ -83,6 +83,7 @@
             fun.ndx <- grep(x=fun.lst_chr, pattern = "(.*)\\.R", ignore.case=TRUE)
             fun.lst_chr <-  fun.lst_chr[fun.ndx]
             for (fun.chr in fun.lst_chr){
+                cat("\r",pkg.chr,": ",fun.chr,"\t\t\t")
                 # Get helpers in source  code
                     help.lst_chr <- unlist(strsplit(html_text2(read_html(paste0(url.chr,"/",pkg.chr,"/tree/master/R/",fun.chr))),"\t"))
                     help.lst_chr <- help.lst_chr[2:(length(help.lst_chr)-1)]
@@ -110,6 +111,7 @@
                         )
                     })
             }
+            cat("\n")
         # Copie du _pkgdown.yml pour la doc
             pkgdown.lst_chr <- unlist(strsplit(html_text2(read_html(paste0(url.chr,"/",pkg.chr,"/blob/master/_pkgdown.yml"))),"\t"))
             ref.ndx <- grep(x=pkgdown.lst_chr, pattern = "reference:")
@@ -119,8 +121,7 @@
             start_ref.ndx = ref.ndx
             while(continue.bln){
                 ref.ndx <- ref.ndx +1
-                continue.bln = !grepl(x=pkgdown.lst_chr[ref.ndx], pattern = ":") | grepl(x=pkgdown.lst_chr[ref.ndx], pattern = "title:") | grepl(x=pkgdown.lst_chr[ref.ndx], pattern = "contents:") | grepl(x=pkgdown.lst_chr[ref.ndx], pattern = "subtitle:")
-                
+                continue.bln = !(grepl(x=pkgdown.lst_chr[ref.ndx], pattern = "Copy lines") | grepl(x=pkgdown.lst_chr[ref.ndx], pattern = ":")) | grepl(x=pkgdown.lst_chr[ref.ndx], pattern = "title:") | grepl(x=pkgdown.lst_chr[ref.ndx], pattern = "contents:") | grepl(x=pkgdown.lst_chr[ref.ndx], pattern = "subtitle:")
             }
             pkgdown.lst_chr <- pkgdown.lst_chr[start_ref.ndx:ref.ndx-1]
             if(length(which(nchar(pkgdown.lst_chr)==0))){
@@ -139,16 +140,7 @@
                 append=TRUE
             )
     }
-    # End _pkgdown.yml file
-        cat(paste0(
-            "articles:\n",
-            "- title: Other\n",
-            "  navbar: ~\n",
-            "  contents:\n",
-            "  - Standard\n"),
-            file=paste0(pkg.dir,"/_pkgdown.yml"),
-            append=TRUE
-        )
+
 # bloc end
 
 #==========================================#

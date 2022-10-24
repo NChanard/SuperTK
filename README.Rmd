@@ -27,7 +27,7 @@ You can install the development version of SuperTK from
 [GitHub](https://github.com/) with:
 
 ``` r
-devtools::install_github("NChanard/SuperTK")
+remotes::install_github("NChanard/SuperTK")
 ```
 
 ## Documentation

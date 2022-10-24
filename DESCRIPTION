@@ -17,12 +17,8 @@ Imports:
     DevTK,
     StatTK
 Suggests:
-    knitr,
     Matrix,
-    rmarkdown,
     S4Vectors
-VignetteBuilder: 
-    knitr
 Remotes:
     NChanard/ColorTK,
     NChanard/DataTK,
